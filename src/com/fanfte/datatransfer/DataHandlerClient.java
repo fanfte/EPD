@@ -341,6 +341,7 @@ public class DataHandlerClient extends Thread{
 						ConnectUtils.sendDeviceMessage( from + "@" + GlobalConstants.serverName,
 								                      "total time:" +  (int)Math.abs(remainingtime2) + "#" + sdf.format(new Date()).toString());
 						System.out.println("total time" + Math.abs(remainingTime));
+						System.out.println("total time ");
 					}
 					//datas[count] = newWeight;
 					if(getCountLocal() > 0) {
